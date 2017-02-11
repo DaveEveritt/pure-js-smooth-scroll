@@ -3,12 +3,27 @@ body {
 }
 nav {
   position: fixed;
-  height: 1em;
+  width: 100%;
+  text-align: center;
+  height: 1.3em;
   background: rgba(255,255,255,0.8)
 }
-div {
-  padding-top: 1em;
-  border: 2px solid #000;
-  height: 700px;
+button {
+  line-height: 1.5em;
+  border: none;
+}
+button:focus {
+  border-bottom: 4px solid #eee;
+  outline: none;
+  background: #eee
+}
+main {
   width: 50%;
+  margin: 0 auto;
+}
+div {
+  padding-top: 1.5em;
+  /*border: 2px solid #000;*/
+  height: 700px;
+  background: #eee;
 }
